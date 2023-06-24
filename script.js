@@ -66,3 +66,17 @@ function adicionar(){
     document.getElementById('club').value = '' //Limpando campo
     document.getElementById('club').focus()  //Colocando o foco no campo
 }
+
+function manipular(){
+    const h3 = document.querySelector('h3')
+    //h3.classList.add('fundoVerde')
+    //h3.classList.remove('fundoVerde')
+    h3.classList.toggle('fundoVerde')
+}
+
+function ola(){
+    alert('Olá')
+}
+
+const h4 = document.querySelector('h4')
+h4.addEventListener('click',ola)
